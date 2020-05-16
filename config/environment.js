@@ -47,5 +47,7 @@ module.exports = function(environment) {
     // here you can enable a production-specific feature
   }
 
+  ENV.GOOGLE_MAPS_TOKEN = 'AIzaSyB-ebcpE7sVjfsApDDwCupsvT8XMlzV3sE';
+
   return ENV;
 };
