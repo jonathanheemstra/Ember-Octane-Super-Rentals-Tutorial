@@ -344,9 +344,13 @@ p {
   margin: 0px 25px;
 }
 
-.rental .map img {
+.rental .map .leaflet-container {
   width: 150px;
   height: 150px;
+}
+
+.rental .map .leaflet-container .leaflet-left .leaflet-control {
+  display: none;
 }
 
 .rental.detailed {
